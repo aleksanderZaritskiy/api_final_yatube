@@ -19,9 +19,13 @@
 
 http://127.0.0.1:8000/api/v1/posts/ - GET запрос для получения списка постов
 
+```
  "count": 123,
+ 
  "next": "http://api.example.org/accounts/?offset=400&limit=100",
+ 
  "previous": "http://api.example.org/accounts/?offset=200&limit=100",
+ 
  "results": [
      
        {
@@ -42,6 +46,7 @@ http://127.0.0.1:8000/api/v1/posts/ - GET запрос для получения
  ]
  
  }
+```
 
 * *http://127.0.0.1:8000/api/v1/posts/* * - POST Запрос 
 {
