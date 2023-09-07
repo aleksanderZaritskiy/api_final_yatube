@@ -30,42 +30,22 @@ http://127.0.0.1:8000/api/v1/posts/ - GET запрос для получения
         - "pub_date": "2021-10-14T20:41:29.648Z",
         - "image": "string",
         - "group": 0
-}
-]
-}
+- }
+- ]
+- }
 
 * *http://127.0.0.1:8000/api/v1/posts/* * - POST Запрос 
 {
-"text": "string",
-"image": "string",
-"group": 0
+ "text": "string",
+ "image": "string",
+ "group": 0
 }
-
-* *http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/* * - GET запрос 
-[
-{
-"id": 0,
-"author": "string",
-"text": "string",
-"created": "2019-08-24T14:15:22Z",
-"post": 0
-}
-]
 
 * *http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/* * - Post запрос
 
 {
-"text": "string"
+  "text": "string"
 }
-
-* *http://127.0.0.1:8000/api/v1/follow/* * - GET запрос 
-
-[
-{
-"user": "string",
-"following": "string"
-}
-]
 
 **Как запустить проект:**
 
